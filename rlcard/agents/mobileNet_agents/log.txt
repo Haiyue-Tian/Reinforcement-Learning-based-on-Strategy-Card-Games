@@ -1,0 +1,1 @@
+1 model2_1_1_0.07479986.ckpt-431700: Time = 405.18 secs, Step = 13050, Test loss = 0.2112
