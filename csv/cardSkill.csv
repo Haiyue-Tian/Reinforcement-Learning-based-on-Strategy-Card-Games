@@ -1,0 +1,142 @@
+index,card,part,prop,body,attack,defend,cost,attackType,effect
+1,vegetalBite,serious,plant,mouth,30,30,1,melee,Steal 1 energy from your opponent when comboed with another card.
+2,carrotHammer,carrot,plant,tail,80,40,1,melee,Gain 1 energy if this Axie's shield breaks. Can only trigger once per round.
+3,aquaStock,wateringCan,plant,back,45,80,1,ranged,Gain 1 energy if this Axie is struck by an Aquatic card.
+4,ivoryStab,imp,beast,horn,90,30,1,melee,Gain 1 energy per critical strike dealt by your team this round
+5,piercingSound,goda,beast,mouth,80,40,1,ranged,Destroy 1 of your opponent's energy.
+6,lunaAbsorb,cottontail,beast,tail,0,30,0,ranged,Gain 1 energy.
+7,nightSteal,rice,beast,tail,90,20,1,melee,Steal 1 energy from your opponent when comboed with another card.
+8,tailSlap,nimo,aquatic,tail,20,0,0,melee,Gain 1 energy when comboed with another card.
+9,scaleDart,blueMoon,aquatic,back,120,30,1,ranged,Draw a card if target is in Last Stand.
+10,kotaroBite,kotaro,reptile,mouth,85,30,1,melee,Gain 1 energy if target is faster than this Axie.
+11,disguise,leafBug,bug,horn,20,20,0,melee,Gain 1 energy when comboed with a plant card.
+12,bugSignal,antenna,bug,horn,80,50,1,ranged,"Steal energy from your opponent when chained with another ""Bug Signal"" card."
+13,healingAroma,roseBud,plant,horn,0,50,1,support,Heal this Axie for 120 HP.
+14,drainBite,zigzag,plant,mouth,55,55,1,melee,Heal this Axie by the damage this card inflicts.
+15,veganDiet,herbivore,plant,mouth,75,75,1,melee,Heal this Axie by the damage this card inflicts on a Plant target.
+16,shroomsGrace,shiitake,plant,back,0,40,1,support,Heal this Axie for 120 HP.
+17,forestSpirit,silenceWhisper,plant,mouth,0,40,1,support,"Heal front teammate for 120 HP. If there are no teammates, heal this Axie Instead."
+18,sweetParty,strawberryShortcake,plant,horn,0,40,2,support,"Heal front teammate for 270 HP. If there are no front teammates, heal this Axie"
+19,aquaponics,anemone,aquatic,horn,70,30,1,ranged,Successful attacks restore 50 HP for each Anemone part this Axie posseses.
+20,swallow,catfish,aquatic,mouth,90,30,1,melee,Heal this Axie by the damage inflicted with this card.
+21,whySoSerious,razorBite,reptile,mouth,95,55,1,melee,Heal this Axie by damage inflicted with this card to Aquatic targets.
+22,bloodTaste,mosquito,bug,mouth,80,40,1,melee,Heal this Axie by the damage inflicted with this card.
+23,octoberTreat,pumpkin,plant,back,0,110,1,melee,Draw a card if this Axie's shield doesn't break this round.
+24,cattailSlap,cattail,plant,tail,20,30,0,melee,"Draw a card if struck by a Beast, Bug, or Mech card."
+25,spicySurprise,hotButt,plant,tail,80,50,1,melee,Disable target's mouth cards next round.
+26,leekLeak,hatsune,plant,tail,60,80,1,melee,"When hit, disable the attacker's ranged cards next round."
+27,hareDagger,hare,beast,tail,115,20,1,ranged,Draw a card if this Axie attacks at the beginning of the round.
+28,heroicReward,hero,beast,back,55,0,0,melee,"Draw a card when attacking an Aquatic, Bird, or Dawn target."
+29,headshot,kestrel,bird,horn,130,0,1,ranged,Disable target's horn cards next round.
+30,ivoryChop,boneSail,reptile,back,70,70,1,melee,Draw a card if this Axie's shield breaks./ Fixed a bug where playing 2 bone sails and having shield broken only resulted in drawing one card.
+31,thirdGlance,parasite,bug,horn,80,50,1,ranged,Randomly discard 1 card from your enemy's hand when comboed with another card.
+32,numbingLecretion,gravelAnt,bug,tail,30,30,1,ranged,Disable target's melee cards when comboed with another card.
+33,sunderClaw,pincer,bug,mouth,20,0,0,melee,Randomly discard 1 card from your enemy's hand when comboed with another card.
+34,gasUnleash,yam,plant,tail,20,20,1,ranged,Apply poison each time this card is used to attack or defend.
+35,venomSpray,grassSnake,reptile,tail,20,20,0,ranged,Apply 1 Poison to target.
+36,barbStrike,garishWorm,bug,back,90,40,1,ranged,Apply 2 poison to target when played in a chain.
+37,singleCombat,ronin,beast,back,80,0,1,melee,Guaranteed critical strike when comboed with at least 2 other cards.
+38,branchCharge,littleBranch,beast,horn,125,25,1,melee,Increase crit chance by 20% if comboed with two plant cards.
+39,sinisterStrike,dualBlade,beast,horn,130,20,1,melee,Deal 200% damage on critical strikes.
+40,rampantHowl,shiba,beast,tail,120,30,1,melee,Apply Morale+ to your team for 2 rounds if this Axie attacks while in Last stand
+41,deathMark,axieKiss,beast,mouth,100,20,1,ranged,Apply Lethal to target if this Axie's HP is below 30%.
+42,selfRally,confident,beast,mouth,0,40,0,support,Apply 2 Morale+ to this Axie for 2 rounds.
+43,heartBreak,cupid,bird,back,120,30,1,ranged,Apply Morale- to enemy for 2 rounds.
+44,riskyFeather,theLastOne,bird,tail,150,0,1,ranged,Apply 2 Attack- to this Axie.
+45,peaceTreaty,peaceMaker,bird,mouth,120,30,1,melee,Apply Attack- on target.
+46,cockadoodledoo,cuckoo,bird,horn,0,35,0,ranged,Apply Attack+ to this Axie.
+47,fishHook,riskyFish,aquatic,mouth,105,25,1,melee,"Apply Attack+ to this Axie when attacking Plant, Reptile, or Dusk targets."
+48,clamSlash,clamshell,aquatic,horn,110,40,1,melee,"Apply Attack+ to this Axie when attacking Beast, Bug, or Mech"
+49,shipwreck,sponge (Mechanic Fix),aquatic,back,70,95,1,melee,Apply Attack+ to this Axie if its shield breaks. Can only trugger once per round.
+50,neuroToxin,gila,reptile,tail,100,65,1,ranged,Apply Attack- to poisoned targets.
+51,bugNoise,buzzBuzz,bug,back,110,40,1,ranged,Apply Attack- to target.
+52,acrobatic,arco,beast,horn,100,45,1,melee,Apply speed+ to this Axie for 2 rounds when when comboed with another card.
+53,swiftEscape,goldfish,aquatic,back,105,20,1,melee,Apply Speed+ to this Axie for 2 rounds when attacked.
+54,upstreamSwim,koi,aquatic,tail,110,30,1,melee,Apply Speed+ to this Axie for 2 rounds when comboed with another Aquatic
+55,disarm,incisor,reptile,horn,100,40,1,melee,Apply speed- to target for 2 rounds.
+56,nileStrike,croc,reptile,back,85,60,1,ranged,Appy Speed- to target for 2 rounds.
+57,mysticRush,lagging,bug,horn,35,0,0,melee,Apply Speed- to target for 2 rounds.
+58,turnipRocket,turnip,plant,back,60,80,1,ranged,Target a bird if comboed with 2 or more cards.
+59,seedBullet,watermelon,plant,horn,30,50,1,ranged,Target the fastest enemy.
+60,gerbilJump,gerbil,beast,tail,50,20,1,melee,Skip the closest target if there are 2 or more enemies remaining.
+61,darkSwoop,littleOwl,bird,mouth,20,0,1,melee,Target fastest enemy.
+62,puffySmack,cloud,bird,tail,110,40,1,melee,Skip targets that are in Last Stand.
+63,smartShot,wingHorn,bird,horn,40,20,1,ranged,Skip the closest target if there are 2 or more enemies remaining.
+64,insectivore,hungryBird,bird,mouth,120,30,1,melee,Target Bug class enemy if this Axie's HP is below 50%.
+65,patientHunter,kingfisher,bird,back,130,0,1,melee,Target an Aquatic class enemy if this Axie's HP is below 50%
+66,chitinJump,shrimp,aquatic,tail,25,30,1,melee,Prioritizes furthest target
+67,crimsonWater,piranha,aquatic,mouth,120,30,1,melee,Target injured enemy if this Axie's HP is below 50%.
+68,spinalTap,perch,aquatic,back,100,20,1,melee,Prioritize idle target when comboed with at least 2 additional cards.
+69,sneakyRaid,toothlessBite,reptile,mouth,20,30,1,melee,Target the furthest enemy.
+70,spikeThrow,triSpikes,reptile,back,80,50,1,ranged,Target enemy with lowest shield when comboed with 2 or more cards.
+71,pricklyTrap,cactus,plant,horn,110,20,1,melee,Deal 120% damage if this Axie attacks last.
+72,woodenStab,beech,plant,horn,105,40,1,melee,Deal 120% damage if this Axie's shield breaks.
+73,bambooClan,bambooShoot,plant,horn,80,80,1,melee,Increased 20% damage when chained with another plant card.
+74,nutCrack,nutCracker,beast,mouth,105,30,1,melee,Deal 120% damage when comboed with another 'Nut Cracker' card.
+75,nutThrow,nutCracker,beast,tail,105,30,1,ranged,Deal 120% damage when comboed with another 'Nut Cracker' card.
+76,sugarRush,pocky,beast,horn,120,20,1,melee,Deal 10% additional damage for each allied Bug Axie.
+77,airForceOne,trump,bird,horn,125,30,1,melee,"Deal 120% damage when chained with another ""Trump"" card."
+78,earlyBird,swallow,bird,tail,110,20,1,ranged,Deal 120% damage if this Axie attacks first.
+79,alloutShot,postFight,bird,tail,110,0,0,ranged,Inflict 30% of this Axie's max HP to itself.
+80,featherLunge,featherSpear,bird,horn,110,50,1,melee,"Deal 120% damage when chained with another ""Lunge"" card."
+81,angryLam,lam,aquatic,mouth,110,40,1,melee,Deal 120% damage if this Axie's HP is below 50%.
+82,flankingSmack,navaga,aquatic,tail,100,40,1,melee,Deal 120% damage if this Axie attacks first.
+83,shellJab,babylonia,aquatic,horn,100,50,1,melee,Deal 130% damage when attacking an idle target.
+84,tinySwing,tinyDino,reptile,tail,85,40,1,melee,Deal 150% damage after round 4.
+85,surpriseInvasion,cerastes,reptile,horn,80,60,1,melee,Deal 130% damage if target is faster than this Axie.
+86,scalyLunge,scalySpear,reptile,horn,110,50,1,melee,"Deal 120% damage when chained with another ""lunge"" card."
+87,allergicReaction,thornyCaterpillar,bug,tail,100,30,1,melee,Deal 130% damage to debuffed targets.
+88,dullGrip,pliers,bug,horn,110,30,1,melee,Deal 30% more damage to shielded targets.
+89,bugSplat,sandal,bug,back,110,50,1,melee,Deal 50% more damage when attacking Bug targets.
+90,miteBite,squareTeeth,bug,mouth,30,0,0,melee,Add 100% more damage when comboed with another card.
+91,revengeArrow,riskyBeast,beast,back,125,25,1,ranged,Deal 150% damage if this Axie is in Last Stand.
+92,nitroLeap,jaguar,beast,back,120,35,1,melee,Always strike first if this Axie is in Last Stand.
+93,starShuriken,shoalStar,aquatic,horn,115,15,1,ranged,Target cannot enter Last Stand if this card brings its HP to zero.
+94,herosBane,oranda,aquatic,horn,110,25,1,ranged,End target's Last Stand.
+95,grubExplode,pupae,bug,tail,65,0,0,melee,Deal 200% damage when attacking in Last stand. Axie's Last Stand ends after it attacks.
+96,aquaDeflect,potatoLeaf,plant,tail,80,80,1,melee,Cannot be targeted by Aquatic cards if this Axie has teammates remaining.
+97,merryLegion,merry,beast,horn,75,85,1,melee,Add 20% shield to this Axie when played in a chain.
+98,sunderArmor,featherFan,bird,tail,80,50,1,melee,Add 20% shield to this Axie for each debuff it possesses.
+99,shelter,hermit,aquatic,back,0,120,1,melee,Disable critical strikes on this Axie during this round.
+100,deepSeaGore,tealShell,aquatic,horn,50,80,1,melee,Add 30% to this Axie's shield when attacking.
+101,slipperyShield,redEar,reptile,back,10,145,1,melee,Add 15% of this Axie's shield to adjacent teammates.
+102,criticalEscape,wallGecko,reptile,tail,90,20,1,melee,Reduce damage taken by 15% this round.
+103,bulkwark,indianStar,reptile,back,20,80,1,melee,Reflect 40% of melee damage back at attacker.
+104,vineDagger,greenThorns,reptile,back,20,30,0,ranged,Double shield from this card when comboed with a plant card.
+105,tinyCatapult,scalySpoon,reptile,horn,80,50,1,ranged,Reflect 50% of ranged damage back at attacker.
+106,overgrowKeratin,bumpy,reptile,horn,90,30,1,melee,Recover 20 shield per turn.
+107,jarBarrage,snakeJar,reptile,tail,80,20,1,ranged,Attacks that break this Axie shield cannot do additional damage. Can only trigger once per round.
+108,cleanseScent,bidens,plant,back,0,45,0,support,Remove all debuffs from this Axie.
+109,refresh,mint,plant,back,0,50,0,support,Remove all debuffs from a teammate if its directly in front (same row) of this Axie.
+110,blackmail,pigeonPost,bird,back,120,10,1,ranged,Transfer all debuffs on this Axie to target.
+111,balloonPop,balloon,bird,back,40,0,0,ranged,"Apply Fear to target for 1 turn. If defending, apply Fear to self until next round."
+112,soothingSong,doubletalk,bird,mouth,60,0,1,ranged,Ignore shield. Apply sleep to target. (this is just a text change the effect does not change)
+113,chomp,tinyTurtle,reptile,mouth,75,50,1,melee,Apply Stun to enemy when comboed with at least 2 additional cards.
+114,stickyGoo,snailShell,bug,back,40,60,1,melee,Stun attacker if this Axie’s shield breaks. Can only trigger once per round.
+115,anestheticBait,fishSnack,bug,tail,60,80,1,melee,Apply stun when struck by Aquatic or Bird class cards. Can only trigger once per
+116,terrorChomp,cuteBunny,bug,mouth,100,35,1,melee,Apply Fear to target for 2 turns when played in a Chain.
+117,coolBreeze,granmasFan,bird,tail,120,30,1,ranged,Apply Chill to target for 2 rounds.
+118,waterSphere,ranchu,aquatic,tail,120,30,1,ranged,Apply Chill to target for 2 rounds.
+119,illomened,raven,bird,back,120,30,1,ranged,Apply Jinx to target for 2 rounds.
+120,blackBubble,tadpole,aquatic,tail,110,40,1,ranged,Apply Jinx to target for 2 rounds.
+121,pooFling,unko,reptile,horn,30,100,1,ranged,Apply Stench to target until end of round.
+122,chemicalWarfare,ant,bug,tail,30,100,1,melee,Apply Stench to enemy for 1 round.
+123,buzzingWind,spikyWing,bug,back,10,30,0,ranged,Apply Fragile to target until next round.
+124,jugglingBalls,furball,beast,back,40,30,1,ranged,Strike 3 times.
+125,eggbomb,eggshell,bird,horn,110,0,1,ranged,Apply Aroma on this Axie until next round.
+126,tripleThreat,triFeather,bird,back,40,10,0,ranged,Attack twice if this Axie has any debuffs.
+127,scarabCurse,scarab,bug,back,110,40,1,ranged,Scarab is now considered a true debuff.
+128,twinNeedle,twinTail,bug,tail,35,0,0,ranged,Attack twice when comboed with another card.
+129,aquaVitality,anemone,aquatic,back,70,30,1,melee,Successful attacks restore 50 HP for each Anemone part this Axie posseses.
+130,woodmanPower,timber,beast,back,90,80,1,melee,Add Shield equal to the damage this cards deals to Plant targets.
+131,grubSurprise,caterpillars,bug,horn,110,60,1,ranged,Apply Fear to shielded targets.
+132,scaleDart1,iguana,reptile,tail,90,60,1,ranged,Generate 1 energy when attacking a buffed target.
+133,aquatic,aquatic,aquatic,,,,,,
+134,beast,beast,beast,,,,,,
+135,bird,bird,bird,,,,,,
+136,bug,bug,bug,,,,,,
+137,plant,plant,plant,,,,,,
+138,reptile,reptile,reptile,,,,,,
+139,dawn,dawn,dawn,,,,,,
+140,dusk,dusk,dusk,,,,,,
+141,mech,mech,mech,,,,,,

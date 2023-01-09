@@ -1,0 +1,10 @@
+class,health,speed,skill,morale
+aquatic,39,39,35,27
+beast,31,35,31,43
+bird,27,43,35,35
+bug,35,31,35,39
+plant,43,31,31,35
+reptile,39,35,31,35
+dawn,35,35,39,31
+dusk,43,39,27,31
+mech,31,39,43,27
